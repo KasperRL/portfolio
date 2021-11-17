@@ -16,37 +16,39 @@
 <body>
     <header>
         <section>
-                <div class="fixed w-max m-4">
-                    <a href="https://github.com/KasperRL" target="_blank"
-                        class="hover:text-red-500 transition duration-300">
-                        <h1 class="text-4xl font-bold upper">Kasper Ligthart</h1>
-                        <p class="pb-2 text-right font-semibold">Full Stack Developer</p>
-                    </a>
-                    <div class="fixed">
-                        <div class="flex space-x-4">
-                            <a href="#sectionone" class="text-sm font-medium hover:text-red-500 transition duration-300"
-                                aria-current="page">Section 1</a>
-    
-                            <a href="#sectiontwo" class="text-sm font-medium hover:text-red-500 transition duration-300">Section 2</a>
-    
-                            <a href="#sectionthree" class="text-sm font-medium hover:text-red-500 transition duration-300">Section 3</a>
-                        </div>
+            <div class="absolute m-4 w-full text-center md:fixed md:w-max">
+                <a href="https://github.com/KasperRL" target="_blank"
+                    class="hover:text-red-500 transition duration-300">
+                    <h1 class="text-4xl font-bold">Kasper Ligthart</h1>
+                    <p class="pb-2 font-semibold md:text-right">Full Stack Developer</p>
+                </a>
+                <div class="invisible md:visible md:fixed">
+                    <div class="flex space-x-12">
+                        <a href="#home" class="text-sm font-medium hover:text-red-500 transition duration-200 ml-4"
+                            aria-current="page">Home</a>
+
+                        <a href="#work"
+                            class="text-sm font-medium hover:text-red-500 transition duration-200">Work</a>
+
+                        <a href="#contact"
+                            class="text-sm font-medium hover:text-red-500 transition duration-200">Contact</a>
                     </div>
                 </div>
+            </div>
         </section>
     </header>
 
     <main>
-        <section id="sectionone" class="flex bg-gray-200 h-screen items-center justify-center">
-            <h1 class="text-4xl font-bold">Section 1</h1>
+        <section id="home" class="flex bg-gray-200 h-screen items-center justify-center">
+            <h1 class="text-4xl font-bold">Home</h1>
         </section>
 
-        <section id="sectiontwo" class="flex bg-red-200 h-screen items-center justify-center">
-            <h1 class="text-4xl font-bold">Section 2</h1>
+        <section id="work" class="flex bg-red-200 h-screen items-center justify-center">
+            <h1 class="text-4xl font-bold">Work</h1>
         </section>
 
-        <section id="sectionthree" class="flex bg-blue-200 h-screen items-center justify-center">
-            <h1 class="text-4xl font-bold">Section 3</h1>
+        <section id="contact" class="flex bg-blue-200 h-screen items-center justify-center">
+            <h1 class="text-4xl font-bold">Contact</h1>
         </section>
     </main>
 
