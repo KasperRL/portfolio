@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <link rel="stylesheet" href="/tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
     <style>
         html {
             scroll-behavior: smooth;
@@ -15,12 +15,9 @@
 
 <body>
     <header>
-        <section class="h-16 lg:h-36">
-            <div class="absolute m-4 w-full lg:fixed lg:w-max">
-                <a href="https://github.com/KasperRL" target="_blank"
-                    class="hover:text-red-500 transition duration-300">
-                    <h1 class="text-center lg:text-left text-2xl lg:text-3xl font-bold">Kasper.</h1>
-                </a>
+        <section>
+            <div class="absolute w-full lg:m-4 lg:fixed lg:w-max">
+                <h1 class="bg-gray-700 text-white text-center text-2xl lg:text-black lg:bg-white lg:text-left lg:text-3xl font-bold"><a href="https://github.com/KasperRL" class="hover:text-red-500 transition duration-300">Kasper.</a></h1>
                 <div class="invisible lg:visible lg:fixed">
                     <div class="flex space-x-4">
                         <a href="#home" class="font-medium transition duration-200 hover:text-red-500"
@@ -36,71 +33,33 @@
     </header>
 
     <main>
-        <section id="home">
-            <div class="relative mx-auto top-1/4 w-full text-center lg:w-3/5">
-                <div class="pb-4 border-b">
-                    <h1 class="text-3xl font-semibold lg:text-6xl">Hi, my name is Kasper Ligthart.</h1>
-                    <div class="mx-auto w-3/5 mt-3 text-sm lg:w-4/5 lg:text-xl">
-                        <p><span class="underline">I am a Full Stack web developer</span> based in Amsterdam, Netherlands. I build web applications
-                            for clients on both the front-end and back-end side, over the span of my career I have been
-                            using <a href="https://www.php.net/"
-                                class="font-medium transition duration-200 hover:text-red-500" target="_blank">PHP</a>, <a
-                                href="https://laravel.com/"
-                                class="font-medium transition duration-200 hover:text-red-500" target="_blank">Laravel</a>,
-                            <a href="https://www.mysql.com/"
-                                class="font-medium transition duration-200 hover:text-red-500" target="_blank">MySQL</a>, <a
-                                href="https://v3.vuejs.org/"
-                                class="font-medium transition duration-200 hover:text-red-500" target="_blank">Vue</a> and
-                            <a href="https://tailwindcss.com/"
-                                class="font-medium transition duration-200 hover:text-red-500" target="_blank">TailwindCSS</a> 
-                            for my web applications.
-                        </p>
-                        <p class="mt-2">Feel free to <a href="#contact" class="font-medium transition duration-200 hover:text-red-500">contact</a> me if you have any questions or <a href="#work" class="font-medium transition duration-200 hover:text-red-500">take a look at my work</a>.</p>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="grid grid-cols-2">
-                    <div class="mt-4 mr-2">
-                        <div class="relative pt-1">
-                            <p><a href="https://www.php.net/" class="font-medium transition duration-200 hover:text-red-500" target="_blank">PHP</a></p>
-                            <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                <div style="width:60%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"></div>
-                            </div>
-                        </div>
-                        <div class="relative pt-1">
-                            <p><a href="https://laravel.com/" class="font-medium transition duration-200 hover:text-red-500" target="_blank">Laravel</a></p>
-                            <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                <div style="width:30%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"></div>
-                            </div>
-                        </div>
-                        <div class="relative pt-1">
-                            <p><a href="https://www.mysql.com/" class="font-medium transition duration-200 hover:text-red-500" target="_blank">MySQL</a></p>
-                            <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                <div style="width:40%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-4 ml-2">
-                        <div class="relative pt-1">
-                            <p><a href="https://v3.vuejs.org/" class="font-medium transition duration-200 hover:text-red-500" target="_blank">Vue 3</a></p>
-                            <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                <div style="width:20%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"></div>
-                            </div>
-                        </div>
-                        <div class="relative pt-1">
-                            <p><a href="https://tailwindcss.com/" class="font-medium transition duration-200 hover:text-red-500" target="_blank">TailwindCSS</a></p>
-                            <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                <div style="width:20%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"></div>
-                            </div>
-                        </div>
-                    </div>
+        <section id="home" class="h-screen">
+            <div class="relative mx-auto w-full text-center lg:w-3/5 lg:top-1/3">
+                <h1 class="text-3xl font-semibold lg:text-6xl">Hi, my name is Kasper Ligthart.</h1>
+                <div class="mx-auto w-3/5 mt-3 text-sm lg:w-4/5 lg:text-xl">
+                    <p>I am a Full Stack web developer based in Amsterdam, Netherlands. I build web applications
+                        for clients on both the front-end and back-end side, over the span of my career I have been
+                        using <a href="https://www.php.net/"
+                            class="font-medium transition duration-200 hover:text-red-500" target="_blank">PHP</a>, <a
+                            href="https://laravel.com/"
+                            class="font-medium transition duration-200 hover:text-red-500" target="_blank">Laravel</a>,
+                        <a href="https://www.mysql.com/"
+                            class="font-medium transition duration-200 hover:text-red-500" target="_blank">MySQL</a>, <a
+                            href="https://v3.vuejs.org/"
+                            class="font-medium transition duration-200 hover:text-red-500" target="_blank">Vue</a> and
+                        <a href="https://tailwindcss.com/"
+                            class="font-medium transition duration-200 hover:text-red-500" target="_blank">TailwindCSS</a> 
+                        for my web applications.
+                    </p>
+                    <p class="mt-2">Feel free to <a href="#contact" class="font-medium transition duration-200 hover:text-red-500">contact</a> me if you have any questions or <a href="#work" class="font-medium transition duration-200 hover:text-red-500">take a look at my work</a>.</p>
+                    <p></p>
                 </div>
             </div>
         </section>
 
-        <section id="work">
+        <section id="work" class="h-screen">
             <div class="relative mx-auto w-full text-center lg:w-3/5">
-                <h1 class="text-3xl font-bold mt-64">My work</h1>
+                <h1 class="text-3xl font-bold">My work</h1>
                 <div class="border-t my-6 py-6">
                     <p>Not much here yet.. Check back later!</p>
                 </div>
@@ -109,7 +68,7 @@
 
         <section id="contact">
             <div class="relative mx-auto w-full text-center lg:w-3/5">
-                <div class="border-t mt-64 py-6">
+                <div class="border-t py-6">
                     <h2 class="text-2xl font-bold">Reach me on</h2>
                     <div class="flex justify-center space-x-6 text-3xl my-4">
                         <a href="https://github.com/KasperRL" class="transition duration-200 hover:text-red-500" target="_blank">
