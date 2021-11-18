@@ -2,7 +2,13 @@ var i = 0;
 var headingTxt = 'Hi, my name is Kasper Ligthart.';
 var speed = 50;
 const heading = document.getElementById("heading");
-const headingBody = document.getElementById("headingBody");
+
+var elements = [
+    document.getElementById("headingBody"),
+    document.getElementById("nav"),
+    document.getElementById("work"),
+    document.getElementById("contact"),
+];
 
 function typeWriter() {
     if (i < headingTxt.length) {
@@ -10,7 +16,9 @@ function typeWriter() {
         i++;
         setTimeout(typeWriter, speed);
     } else {
-        headingBody.classList.remove("opacity-0");
+        elements.forEach(element => {
+            element.classList.remove("opacity-0");
+        });
     }
 }
 
