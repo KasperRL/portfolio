@@ -1,2 +1,2 @@
 # portfolio
-My portfolio website build with HTML, tailwindcss...
+My portfolio website build with HTML, TailwindCSS and Javascript.
