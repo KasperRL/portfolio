@@ -13,15 +13,15 @@
 ## Reach me
 
 <span>
-  <a href="https://www.linkedin.com/in/kasper-ligthart/" target="_blank">
+  <a href="https://www.linkedin.com/in/kasper-ligthart/">
     <img src="https://user-images.githubusercontent.com/70808417/142434323-df22212a-d2a2-4c3f-a8b8-cb71003641d9.png" width=40>
   </a>
-  <a href="https://github.com/KasperRL" target="_blank">
+  <a href="https://github.com/KasperRL">
     <img src="https://user-images.githubusercontent.com/70808417/142432587-1ff09d3b-676c-4765-ba31-4eb7aace4615.png" width=50>
   </a>
 </span>
 
 #### Or kasper.ligthart@icloud.com
 
-#### <a href="https://kasperrl.github.io/portfolio/" target="_blank">View the live result here</a>
+#### <a href="https://kasperrl.github.io/portfolio/">View the live result here</a>
 
