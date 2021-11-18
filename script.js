@@ -3,7 +3,7 @@ var headingTxt = 'Hi, my name is Kasper Ligthart.';
 var speed = 50;
 const heading = document.getElementById("heading");
 
-var elements = [
+const elements = [
     document.getElementById("headingBody"),
     document.getElementById("nav"),
     document.getElementById("work"),
